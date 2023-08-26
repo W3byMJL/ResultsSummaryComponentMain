@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 1440px;
+    font-family:'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.result {
+    color: hsla(221, 100%, 96%, 0.8);
+    font-weight: 100;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 22px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: none;
+    margin: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px 0 hsla(221, 100%, 96%,.8), 0 15px 45px 0 hsla(221, 100%, 96%, 0.79);
+}
+
+.left {
+    width: 350px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    position: relative;
+}
+
+.circle {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 2px;
+    margin: auto;
+    position: relative;
+
+}
+
+.circle h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 64px;
+}
+
+.circle p {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color:hsla(221, 100%, 96%, .4);
+
+}
+
+.great {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feedback {
+    color:hsla(221, 100%, 96%, .7);
+    font-weight: 100;
+    margin-bottom: 36px;
+}
+
+.right {
+    width: 350px;
+    border-radius: 0px 20px 20px 0px;
+    padding-top: 36px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p.summary {
+    margin: 0px 25px 30px 25px;
+    font-size: 22px;;
+}
+
+.label {
+   margin-right: 50px;
+      
+}
+
+td.logo1 {
+	text-align: left;
+	padding-right: 8px;
+	}
+
+td.label1 {
+	text-align: left;
+	width: 100px;
+	padding-left: 10px;
+}
+
+td.score1 {
+	text-align: right;
+	width: 140px;
+	padding-right: 10px;
+    color: black;
+}
+.reaction {
+    background-color:hsla(0, 100%, 67%,0.1);
+    color:hsl(0, 100%, 67%);
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px 25px 15px 25px;
+    text-align: right;    
+    font-size: 20px;;
+    }
+
+svg {
+    float: left;
+    clear: both;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+}
+
+
+.score {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 12px;
+    /*padding-left: 100px;*/
+    }
+
+
+.memory {
+    background-color: hsla(39, 100%, 56%,0.1);
+    color:hsl(39, 100%, 56%);
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px 25px 15px 25px;
+    text-align: right; 
+    font-size: 20px;
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%,0.1);
+    color:hsla(166, 100%, 37%,1.0);
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px 25px 15px 25px;
+    text-align: right; 
+    font-size: 20px;
+    }
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px 25px 15px 25px;
+    text-align: right; 
+    font-size: 20px;
+}
+
+.continue {
+    background-color: hsl(224, 30%, 27%);
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 30px 25px 15px 25px;
+    font-weight: 500;
+}
+
+p.summary {
+    font-weight: 800;
+}
+
+#grad1 {
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    radius: 25%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#grad2 {
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    radius: 25%;
+    background-image: linear-gradient(to right,hsl(241, 81%, 54%), hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
